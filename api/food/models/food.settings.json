@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "restaurants",
+  "collectionName": "foods",
   "info": {
-    "name": "restaurant"
+    "name": "food"
   },
   "options": {
     "increments": true,
@@ -14,12 +14,9 @@
       "required": true,
       "unique": true
     },
-    "description": {
-      "type": "richtext"
-    },
-    "categories": {
-      "via": "restaurants",
-      "collection": "category"
+    "category": {
+      "model": "category",
+      "via": "foods"
     }
   }
 }
