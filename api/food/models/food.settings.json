@@ -15,8 +15,8 @@
       "unique": true
     },
     "category": {
-      "model": "category",
-      "via": "foods"
+      "via": "foods",
+      "model": "category"
     }
   }
 }
