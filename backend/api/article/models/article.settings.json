@@ -26,7 +26,7 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "published_at": {
       "required": true,
